@@ -11,16 +11,18 @@ body {
 }
 
 .wrapper {
-  
-  outline: 1px solid red;
   margin: auto;
-  padding: 60px 37px;
+  padding: 60px 37px 30px;
   width: 480px;
   background: white;
 }
 
 .section {
   margin-bottom: 50px;
+}
+
+.section:last-child {
+  margin-bottom: 0px;
 }
 
 .title {
@@ -62,4 +64,33 @@ body {
 
 .list-item:last-child {
   margin-bottom: 0px;
+  padding-bottom: 52px;
 }
+
+.horiz-line {
+  border-bottom: 1px solid #dedbdb;
+}
+
+.list-offer {
+  margin: 40px 0 0 24px;
+  columns: 2;
+}
+
+.list-offer-item {
+  margin-bottom: 20px;
+}
+
+.text-offer {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(38, 53, 85);
+  line-height: 1.357;
+  font-weight: bold;
+  margin-bottom: 20px;
+  }
+
+  .text-offer:last-child {
+    margin-bottom: 0;
+  }
+
+
